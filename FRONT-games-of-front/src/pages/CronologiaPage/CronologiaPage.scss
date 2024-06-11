@@ -1,0 +1,90 @@
+.white-line{
+    position: absolute;
+    left: 50%;  
+    width: 1px; 
+    background-color: white; 
+    margin-bottom: 13%; 
+    height: 5400px;       
+}
+
+.circulo-flecha{
+    margin-top: -50px;
+    img{
+        width: 90px;
+        height: 90px;
+    }
+}
+
+.cronologia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+    font-size: 10px; 
+    margin-bottom: 10%; 
+    // img{
+    //     width: 100px;
+    //     height: 100px;
+    //     position: absolute;
+    // }
+}
+
+.b-personaje-cronologia-par{
+    margin: 30px 0;
+    margin-right: 28%;             
+    img{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        margin: 5px; 
+        object-fit: cover;       
+        }
+    h3{
+        margin: 3px;
+    }
+    h4{
+        margin: 3px;
+        font-size: 20px;
+        border-top: 1px solid white;
+        width: 35%;
+        position: relative;
+        margin-left: 33%;
+        padding: 5px;
+    }
+}
+
+.b-personaje-cronologia-impar{
+     margin: 30px 0;
+     margin-left: 26%;       
+    img{
+        border-radius: 50%;
+         width: 150px;
+        height: 150px;
+        margin: 5px; 
+        object-fit: cover;       
+        }
+    h3{
+        margin: 3px;        
+    }
+    h4{
+        margin: 3px;
+        font-size: 20px;
+        border-top: 1px solid white;
+        width: 35%;
+        position: relative;
+        margin-left: 33%;
+        padding: 5px;        
+    }
+}
+
+//  h4::before {
+//         // content: '';
+//         position: absolute;
+//         top: 50%;
+//         left: 0;
+//         width: 100px; /* Ancho de la línea */
+//         height: 2px; /* Altura de la línea */
+//         background-color: black; /* Color de la línea */
+//         margin-top: -1px; /* Mitad de la altura para centrarla verticalmente */
+// }

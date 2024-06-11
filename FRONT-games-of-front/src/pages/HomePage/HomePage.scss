@@ -1,0 +1,42 @@
+.home-b{
+    background-image: url(/src/components/styles/Images/fondo1.svg);            
+    text-decoration: none;    
+    background-size: cover;
+}
+ 
+body{
+    background-color: black;
+}
+
+.title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.text-1 {
+    margin-top: 240px;
+    margin-bottom: -180px;
+    text-align: center;
+    color: white;
+    font-size: 65px;
+}
+
+.text-2{
+    margin-bottom: 200px;
+    text-align: center;
+    color: white;
+    font-size: 65px;  
+}
+
+
+// .fondo-home{
+//     background-color: black; 
+//     width: 100%;
+    
+//     // background-size: cover;
+// }
+
+// {/* <div style={{ backgroundColor: 'black', minHeight: '100vh' }}></div> */ }

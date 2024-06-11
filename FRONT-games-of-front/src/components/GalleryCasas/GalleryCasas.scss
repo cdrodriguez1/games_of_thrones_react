@@ -1,0 +1,52 @@
+.casas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 70px;
+    margin-bottom: 30px;
+}
+
+.b-casa{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    margin: 10px 15px;  
+    img{
+             object-fit: contain;
+    }  
+}
+
+.b-name-casa{
+    font-size: 8px;   
+    color: white; 
+    h2{
+        margin-top: -35px;
+    }
+}
+
+.b-buscador-casas{
+      background-color: black;
+      margin-left: 7%;
+      margin-top: -40px;
+      display: flex;
+      align-items: center;  
+      color: grey;    
+  
+   img{
+      width: 23px;
+      height: 23px;
+      object-fit: contain;
+      padding: 6px;
+      margin-top: 1px;
+   }
+   input{
+      background-color: black;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-top-style: hidden;
+      border-bottom-style: ridge;
+      font-size: 18px;
+      color: grey; 
+   }
+}
+

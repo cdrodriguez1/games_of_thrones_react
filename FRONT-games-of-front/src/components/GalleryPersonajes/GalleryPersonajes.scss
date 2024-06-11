@@ -1,0 +1,102 @@
+.personajes {
+    display: flex;
+    // flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    // justify-content: space-between;
+    // align-items: center; 
+    // gap: 10px;
+    padding: 50px;
+    margin: 5% 5%;     
+}
+
+ body{
+    background-color: rgb(7, 7, 7);
+ }
+
+ .b-personaje{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    margin:  20px 10px;
+ }
+
+ img{
+    width: 220px;
+    height: 340px;
+    // border-radius: 20px;    
+    // margin-top: 10px;
+    text-align: center;
+    object-fit: cover;  
+    margin-top: -10px; 
+ }
+
+ .b-name{
+    position: relative;
+    bottom: 50px;
+    align-content: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+    opacity: 0;     
+ }
+
+.b-personaje:hover .b-name{
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    height: 50px; 
+   //  transition: opacity 0.3s;   
+   transition: height 2s;
+}
+
+.b-buscador-personajes{
+      background-color: black;
+      margin-left: 12%;
+      margin-top: 30px;
+      display: flex;
+      align-items: center;  
+      color: grey;    
+   // button{
+   //    background: none;
+   //    // border-bottom: none;
+   // }
+   img{
+      width: 23px;
+      height: 23px;
+      object-fit: contain;
+      padding: 6px;
+      margin-top: 1px;
+   }
+   input{
+      background-color: black;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-top-style: hidden;
+      border-bottom-style: ridge;
+      font-size: 18px;
+      color: grey; 
+   }
+}
+
+.volver-personajes{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 9%;
+    
+    img{
+    width: 23px;
+    height: 23px;
+    // object-fit: contain;
+    padding: 5px;
+    margin-top: 5px;
+   }
+   p{
+    color: white;
+    font-size: 15px;
+    font-family: system-ui;
+   }
+}
